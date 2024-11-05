@@ -1,0 +1,26 @@
+id: particle/blueprint-azure-iot-hub-tutorial
+category: tutorial
+icon: particle.png
+gitrepo: https://github.com/particle-iot/blueprint-azure-iot-hub-tutorial
+name: blueprint-azure-iot-hub-tutorial
+shortDescription: Getting started with Azure IoT Hub and Particle
+version: 1.0.0
+models: []
+language:
+  - C++
+cloudServices: []
+integrations: []
+hardwareDependencies:
+  - name: Particle Device (e.g., Photon, Argon, Boron)
+    link: https://store.particle.io/collections/all-products?filter.p.product_type=Development%20Boards
+description: |
+  Acting as the "front door" to Azure, streaming from Particle into IoT Hub will
+  make it easy to forward device data onto any of Azure's products to add intelligence and
+  robustness to your IoT product or application. Here are some examples of
+  things you could do with Particle + Azure IoT Hub:
+  - Predict when a piece of equipment needs maintenance ahead of time using
+    predictive analytics
+  - Detect anomalies in product behavior by analyzing device data from an
+    entire fleet simultaneously
+  - Trigger a notification to a device owner when supplies are running low
+
