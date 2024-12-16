@@ -1,19 +1,38 @@
 id: particle/blueprint-azure-iot-hub-tutorial
-category: tutorial
-icon: particle.png
+slug: particle-blueprint-azure-iot-hub-tutorial
+type: tutorial
+category: "Device integration and connectivity"
+expertiseLevel: ""
+tags: ["azure"]
+icon: assets/particle-logo.svg
 gitrepo: https://github.com/particle-iot/blueprint-azure-iot-hub-tutorial
 name: Azure IoT Hub integration
 shortDescription: Guide to connecting Particle devices with Azure IoT Hub for scalable IoT applications
 version: 1.0.0
 models: []
-language:
-  - C++
-cloudServices: [ "Integrations" ]
-integrations: [ "Azure IoT Hub" ]
+language: ["C++"]
+cloudServices: 
+  - name: Integrations
+integrations: 
+  - name: Azure IoT Hub
+    icon: assets/iot-hub.svg
+supportedDevices:
+  - name: Boron
+  - name: Argon
+  - name: M-SoM, 
+  - name: Photon 2
+  - name: Muon
+  - name: Monitor One
+  - name: Tracker One
+  - name: T-SoM
+  - name: E-SoM
+  - name: P2
 hardwareDependencies:
-  - name: Particle MCU Development Board
-    link: https://store.particle.io/collections/all-products?filter.p.product_type=Development%20Boards
-    tags: [ "Boron", "Argon", "M-SoM", "Photon 2", "Muon", "Monitor One", "Tracker One", "T-SoM", "E-SoM", "P2" ]
+  - name: 1x Supported device
+introduction: |
+  Particle and Microsoft have teamed up to provide a 1st-class integration with <a href="https://azure.microsoft.com/en-us/services/iot-hub/" target="_blank">Azure IoT Hub</a>. 
+  Azure IoT Hub provides a seamless way to send Particle device data into Azure, effective both during prototyping and when at scale.
+
 description: |
   This tutorial walks you through integrating Particle devices with Azure IoT Hub, serving as a bridge for device data into Azure’s ecosystem. Achieve real-time, intelligent IoT solutions by leveraging Azure services with Particle devices. Applications include:
 
@@ -22,3 +41,5 @@ description: |
   - Notification systems for user alerts, such as low-supply warnings
 
   Start streaming device data from Particle to Azure IoT Hub to harness the power of Microsoft’s IoT tools and resources.
+
+additionalResources:
