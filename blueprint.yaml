@@ -1,8 +1,7 @@
-id: particle/blueprint-azure-iot-hub-tutorial
 slug: particle-blueprint-azure-iot-hub-tutorial
 type: tutorial
 category: "Device integration and connectivity"
-expertiseLevel: ""
+expertiseLevel: "beginner"
 tags: ["azure"]
 icon: assets/particle-logo.svg
 gitrepo: https://github.com/particle-iot/blueprint-azure-iot-hub-tutorial
