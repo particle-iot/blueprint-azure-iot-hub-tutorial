@@ -1,9 +1,9 @@
 slug: particle-blueprint-azure-iot-hub-tutorial
-type: tutorial
+type: Tutorial
 category: "Device integration and connectivity"
-expertiseLevel: "beginner"
-tags: ["azure", "data export", "time series", "insights"]
-icon: assets/particle-logo.svg
+expertiseLevel: "Beginner"
+tags: ["Azure", "Data export", "Time series", "Insights"]
+icon: assets/azure-iot-hub.svg
 gitrepo: https://github.com/particle-iot/blueprint-azure-iot-hub-tutorial
 name: Azure IoT Hub integration
 shortDescription: Guide to connecting Particle devices with Azure IoT Hub for scalable IoT applications
@@ -14,7 +14,7 @@ cloudServices:
   - name: Integrations
 integrations: 
   - name: Azure IoT Hub
-    icon: assets/iot-hub.svg
+    icon: assets/azure-iot-hub-integration.svg
 supportedDevices:
   - name: Boron
   - name: Argon
