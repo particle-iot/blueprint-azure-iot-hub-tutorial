@@ -27,9 +27,9 @@ supportedDevices:
   - name: E-SoM
   - name: P2
 hardwareDependencies:
-  - name: 1x Supported device
+  - name: Supported device
 introduction: |
-  Particle and Microsoft have teamed up to provide a 1st-class integration with <a href="https://azure.microsoft.com/en-us/services/iot-hub/" target="_blank">Azure IoT Hub</a>. 
+  Particle and Microsoft have teamed up to provide a 1st-class integration with [Azure IoT Hub](https://azure.microsoft.com/en-us/services/iot-hub). 
   Azure IoT Hub provides a seamless way to send Particle device data into Azure, effective both during prototyping and when at scale.
 
 description: |
